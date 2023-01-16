@@ -12,7 +12,7 @@
   - [Variables Operadores y Tipos de Datos](#variables-operadores-y-tipos-de-datos)
 - [Semana 2](#semana-2)
 	- [Estructuras Secuenciales (If-else)](#estructuras-secuenciales-if-else)
-	- [Estructuras Repetitivas (While/For Loops)](#estructuras-repetitivas-while/for-loops)
+	- [Estructuras Repetitivas (While For Loops)](#estructuras-repetitivas-while-for-loops)
 	- [Listas](#listas)
 - [Semana 3](#semana-3)
 - [Semana 4](#semana-4)
