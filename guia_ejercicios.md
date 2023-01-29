@@ -7,23 +7,89 @@
 - [Guía de Ejercicios Algoritmos y Programacion](#guía-de-ejercicios-algoritmos-y-programacion)
 - [Contenido](#contenido)
 - [Semana 1](#semana-1)
-  - [Terminal](#terminal)
-  - [Instalaciones](#instalaciones)
-  - [Variables Operadores y Tipos de Datos](#variables-operadores-y-tipos-de-datos)
+	- [Terminal](#terminal)
+		- [Ejercicio 0](#ejercicio-0)
+	- [Instalaciones](#instalaciones)
+		- [Ejercicio 0.5](#ejercicio-05)
+	- [Variables Operadores y Tipos de Datos](#variables-operadores-y-tipos-de-datos)
+		- [Ejercicio 1](#ejercicio-1)
+		- [Ejercicio 2](#ejercicio-2)
+		- [Ejercicio 3](#ejercicio-3)
+		- [Ejercicio 4](#ejercicio-4)
+		- [Ejercicio 5](#ejercicio-5)
+		- [Ejercicio 6](#ejercicio-6)
+		- [Ejercicio 7](#ejercicio-7)
 - [Semana 2](#semana-2)
-	- [Estructuras Secuenciales (If-else)](#estructuras-secuenciales-if-else)
-	- [Estructuras Repetitivas (While For Loops)](#estructuras-repetitivas-while-for-loops)
+	- [Estructuras Secuenciales If-else](#estructuras-secuenciales-if-else)
+		- [Ejercicio 8](#ejercicio-8)
+		- [Ejercicio 9](#ejercicio-9)
+		- [Ejercicio 10](#ejercicio-10)
+		- [Ejercicio 11](#ejercicio-11)
+		- [Ejercicio 12](#ejercicio-12)
+	- [Estructuras Repetitivas While/For Loops](#estructuras-repetitivas-whilefor-loops)
+		- [Ejercicio 13](#ejercicio-13)
+		- [Ejercicio 14](#ejercicio-14)
+		- [Ejercicio 15](#ejercicio-15)
+		- [Ejercicio 16](#ejercicio-16)
+		- [Ejercicio 17](#ejercicio-17)
+		- [Ejercicio 18](#ejercicio-18)
+		- [Ejercicio 19](#ejercicio-19)
 	- [Listas](#listas)
+		- [Ejercicio 20](#ejercicio-20)
+		- [Ejercicio 21](#ejercicio-21)
+		- [Ejercicio 22](#ejercicio-22)
+		- [Ejercicio 23](#ejercicio-23)
+		- [Ejercicio 24](#ejercicio-24)
+		- [Ejercicio 25](#ejercicio-25)
+		- [Ejercicio 26](#ejercicio-26)
+		- [Ejercicio 27](#ejercicio-27)
 - [Semana 3](#semana-3)
+	- [Tuplas](#tuplas)
+		- [Ejercicio 28](#ejercicio-28)
+		- [Ejercicio 29](#ejercicio-29)
+		- [Ejercicio 30](#ejercicio-30)
+		- [Ejercicio 31](#ejercicio-31)
+		- [Ejercicio 32](#ejercicio-32)
+		- [Ejercicio 33](#ejercicio-33)
+		- [Ejercicio 34](#ejercicio-34)
+	- [Sets](#sets)
+		- [Ejercicio 35](#ejercicio-35)
+		- [Ejercicio 36](#ejercicio-36)
+		- [Ejercicio 37](#ejercicio-37)
+		- [Ejercicio 38](#ejercicio-38)
+		- [Ejercicio 39](#ejercicio-39)
+		- [Ejercicio 40](#ejercicio-40)
+		- [Ejercicio 41](#ejercicio-41)
+	- [Diccionarios](#diccionarios)
+		- [Ejercicio 42](#ejercicio-42)
+		- [Ejercicio 43](#ejercicio-43)
+		- [Ejercicio 44](#ejercicio-44)
+		- [Ejercicio 45](#ejercicio-45)
+		- [Ejercicio 46](#ejercicio-46)
+		- [Ejercicio 47](#ejercicio-47)
+		- [Ejercicio 48](#ejercicio-48)
 - [Semana 4](#semana-4)
+	- [Estructuras de Datos Combinadas](#estructuras-de-datos-combinadas)
 - [Semana 5](#semana-5)
+	- [Modularidad, funciones e importaciones](#modularidad-funciones-e-importaciones)
 - [Semana 6](#semana-6)
+	- [POO: Clases y Objetos](#poo-clases-y-objetos)
 - [Semana 7](#semana-7)
+	- [POO: Herencia, Composicion y Polimorfismo](#poo-herencia-composicion-y-polimorfismo)
 - [Semana 8](#semana-8)
+	- [Uso de UML, diagramacion de clases](#uso-de-uml-diagramacion-de-clases)
 - [Semana 9](#semana-9)
+	- [Manejo de Archivos](#manejo-de-archivos)
+	- [Manejo de APIs](#manejo-de-apis)
+	- [Recursividad](#recursividad)
 - [Semana 10](#semana-10)
+	- [Ordenamiento de Listas](#ordenamiento-de-listas)
+	- [Algoritmos de Busqueda](#algoritmos-de-busqueda)
+	- [Notacion Big O](#notacion-big-o)
 - [Semana 11](#semana-11)
+	- [Interfaces Graficas en Python (Extra!)](#interfaces-graficas-en-python-extra)
 - [Semana 12](#semana-12)
+	- [Extras Parte II](#extras-parte-ii)
 
 
 # Semana 1
@@ -360,12 +426,223 @@ El programa debera imprimir *dos matrices resultantes*, una correspondiente a ca
 Realice un algoritmo que dado un **número** ingresado por el usuario realice la operación de *multiplicación por la matriz A* del ejercicio anterior. El programa deberá
 mostrar como respuesta la *matriz resultante* de la misma.
 
-
-
-
 # Semana 3
 
-## Diccionarios, Tuplas y Sets
+## Tuplas
+
+### Ejercicio 28
+
+Debe crear un programa que cree **dos tuplas** a partir de la tupla que se muestra a continuacion, que una contenga solo los *nombres* (*en minuscula*) y que la otra tenga solo los *apellidos* de las personas (*en mayuscula*).
+
+```python
+personas = ("Elijah Evans", 
+			"Charissa Mueller", 
+			"Kirby Park",
+			"Jescie Hill",
+			"Leroy Herring",
+			"Francis Castaneda",
+			"Bree Gregory",
+			"Kermit Stevens",
+			"Jordan Terry",
+			"Paul Trujillo",
+			"Linda Beck",
+			"Dara Mckinney",
+			"Idola Pearson",
+			"Phelan Vazquez",
+			"Cleo Dyer",
+			"Kameko Mccall",
+			"Kitra Tillman",
+			"Oren Miles",
+			"Martin Kerr",
+			"Orlando Noble",
+			"Ferdinand Carr",
+			"Scott Norman",
+			"Autumn Winters",
+			"Phillip Heath",
+			"Ryder Mueller",
+			"Armand Lucas",
+			"Naida Hart",
+			"Deborah Spencer",
+			"Blythe Kidd",
+			"Colleen Keller")
+```
+
+### Ejercicio 29
+
+Debe crear un programa que le solicite un *numero entero* al usuario y que a partir de este cree una **tupla** con los primeros **15 multiplos** del numero ingresado.
+
+### Ejercicio 30
+
+A partir de dos listas (*lenguajes y versiones*) debe crear una **lista de tuplas**, en la cual cada tupla debe ser: *(lenguaje, version)*.
+
+```python
+lenguajes = ['Java', 'Python', 'TypeScript']
+versiones = [13, 5, 6]
+```
+
+**Nota:** Investigue el uso de zip().
+
+### Ejercicio 31
+
+Se le pide que cree un algoritmo que dada una *tupla de personas*, cree una **lista de tuplas** que contenga: (index en la tupla, persona). *Ejemplo: (0, Manuel Gomez).*
+
+```python
+personas = ("Elijah Evans", 
+			"Charissa Mueller", 
+			"Kirby Park",
+			"Jescie Hill",
+			"Leroy Herring",
+			"Francis Castaneda",
+			"Bree Gregory",
+			"Kermit Stevens",
+			"Jordan Terry",
+			"Paul Trujillo",
+			"Linda Beck",
+			"Dara Mckinney",
+			"Idola Pearson",
+			"Phelan Vazquez",
+			"Cleo Dyer",
+			"Kameko Mccall",
+			"Kitra Tillman",
+			"Oren Miles",
+			"Martin Kerr",
+			"Orlando Noble",
+			"Ferdinand Carr",
+			"Scott Norman",
+			"Autumn Winters",
+			"Phillip Heath",
+			"Ryder Mueller",
+			"Armand Lucas",
+			"Naida Hart",
+			"Deborah Spencer",
+			"Blythe Kidd",
+			"Colleen Keller")
+```
+
+**Nota:** Investigue el uso de enumerate().
+
+### Ejercicio 32
+
+Se le pide que desarrolle un programa que le pida un número al usuario (Entre 1 y 12) e indique segun este numero que *mes seria del año* y *cuántos días tiene*. Se exige el uso de **tuplas**.
+
+### Ejercicio 33
+
+Debe crear un programa que le pida al usuario las *5 notas obtenidas por un alumno* (comprendidas entre 0 y 20). A continuación, debe mostrar el *promedio* del alumno, su *nota más alta* y la *menor*. Se exige el uso de **tuplas**.
+
+### Ejercicio 34
+
+Realizar un programa que cree una **tupla** con *10 numeros enteros aleatorios*. Luego, debe mostrar en pantalla cada elemento de la tupla junto con su *cuadrado* y su *cubo*.
+
+
+## Sets
+
+### Ejercicio 35
+
+Dado un **set de numeros A**, debe crear otro set con el cuadrado de cada numero del conjunto original.
+
+```python
+A = {1, 2, 3, 4, 5, 6, 7, 8}
+```
+
+### Ejercicio 36
+
+Debe realizar un algoritmo que simule un juego de dados entre 2 jugadores de *7 turnos en total*. En cada turno, cada jugador tirara el dado una vez con el fin de tener mas puntos que su oponente al final del juego. Al terminar los turnos debe indicar que jugador gano, junto con su cantidad de puntos totales. Se exige el uso de **sets**.
+
+|Cara |          Accion             |
+|-----|-----------------------------|
+|  1  |        +10 puntos           |
+|  2  |        +20 puntos           |
+|  3  | Debe volver a tirar el dado |
+|  4  | Puntuacion actual x 2       |
+|  5  |        +40 puntos           |
+|  6  | Puntuacion actual / 2       |
+
+**Nota:** Debe investigar como generar numeros aleatorios en python, de esta forma podra simular tirar el dado.
+
+### Ejercicio 37
+Se realizara el **Cusica Fest 2023** y se venderan las entradas para dos dias diferentes. Sin embargo, el sistema guarda al cliente en dos sets diferentes dependiendo el dia. Por ello, los que estan vendiendo los tickets necesitan saber que personas iran ambos dias para darles un regalo,  y quienes solo iran un dia para mandarles publicidad. Se exige el uso de sets. 
+
+El primer dia van a ir: Luis, Laura, Andres, Jose, Andrea, Maria, Carlos
+El segundo dia van a ir: Rommel, Milena, Antonio, Andres, Andrea, Sofia
+
+### Ejercicio 38
+Se requiere que realice un programa que cuente las **vocales** de un texto. Se exige el uso de sets.
+
+### Ejercicio 39
+Dados dos *conjuntos A y B*, debe crear un *set C* que represente la intersección de dichos conjuntos. No se permite el uso de **interception()**.
+
+```python
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+```
+
+### Ejercicio 40
+
+Dados dos *conjuntos A y B*, debe crear un *set C* que represente la diferencia de dichos conjuntos. No se permite el uso de **difference()**.
+
+```python
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+```
+
+### Ejercicio 41
+Dados dos *conjuntos A y B*, determine si *A es subconjunto de B* o si *B es subconjunto de A*.
+
+```python
+A = {1, 2, 3, 4}
+B = {1, 4}
+```
+
+## Diccionarios
+
+### Ejercicio 42
+
+A partir de un texto que ingrese el usuario, debe crear un **diccionario** que tenga como *llaves* cada palabra del texto y como *valores* la cantidad de veces que cada palabra aparece en el texto.
+
+### Ejercicio 43
+
+Cree un programa que a partir de una cadena ingresada por el usuario cuente la *cantidad de veces que aparece cada caracter* de la misma. Se exige el uso de un **diccionario**.
+
+### Ejercicio 44
+
+Debe desarrollar un programa que le pida dos numeros al usuario, y luego determinar si la **representación binaria** de los dos números son **anagramas**.
+
+*Un anagrama es un procedimiento que consiste en crear una palabra a partir de la reordenación de las letras de otra palabra.*
+
+**Nota:** Investigue el uso de bin().
+
+### Ejercicio 45
+
+Escribir un programa que pregunte al usuario su *nombre*, *apellido*, *edad*, *dirección* y *teléfono* (debe guardar esta informacion en un **diccionario**). Después imprimir por pantalla:
+
+**Output**
+```shell
+El ciudadano (nombre) (apellido) de edad (edad), vive en (direccion) y se puede omunicar con el mediante su numero de telefono (telefono).
+```
+
+### Ejercicio 46
+
+Se requiere que realice un programa que valide que un texto tenga **todas las vocales**. Se exige el uso de sets y diccionarios. Debe indicar que vocales faltan en caso de ocurrir.
+### Ejercicio 47
+
+Debe realizar un programa de administracion de estudiantes, donde si el usuario lo desea debe agregar, eliminar o modificar un estudiante. Los datos del estudiante deben ser: nombre, apellido, telefono, correo, carnet, cedula, materias inscritas.
+
+Debe tener un set con las materias que se pueden inscribir.
+
+Tenga en cuenta que las cedulas y los carnet deben ser unicos.
+
+Toda esta informacion debe estar en un diccionario de usuarios inscritos.
+
+**Bonus:** Intente tener en cuenta tambien la nota de cada materia par cada estudiante.
+
+### Ejercicio 48
+
+Crear un programa que reciba una **lista de tuplas**, y que devuelva un diccionario en donde las claves sean los primeros elementos de las tuplas, y los valores una lista con los segundos elementos.
+
+```python
+listaDeTuplas = [("Hola", "Mundo"),("Buenos", "Dias"),("Hasta", "Luego"),("Nos","Vemos")]
+```
+
 
 # Semana 4
 
