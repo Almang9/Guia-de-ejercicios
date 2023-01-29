@@ -68,6 +68,9 @@
 		- [Ejercicio 46](#ejercicio-46)
 		- [Ejercicio 47](#ejercicio-47)
 		- [Ejercicio 48](#ejercicio-48)
+		- [Ejercicio 49](#ejercicio-49)
+		- [Ejercicio 50](#ejercicio-50)
+		- [Ejercicio 51](#ejercicio-51)
 - [Semana 4](#semana-4)
 	- [Estructuras de Datos Combinadas](#estructuras-de-datos-combinadas)
 - [Semana 5](#semana-5)
@@ -641,6 +644,44 @@ Crear un programa que reciba una **lista de tuplas**, y que devuelva un dicciona
 
 ```python
 listaDeTuplas = [("Hola", "Mundo"),("Buenos", "Dias"),("Hasta", "Luego"),("Nos","Vemos")]
+```
+### Ejercicio 49
+
+Escribir un programa que cree un diccionario simulando una cesta de compra. El programa debe preguntar el artículo y su precio, para luego añadir el par al **diccionario**, hasta que el usuario decida terminar. Después se debe mostrar por pantalla la *lista de la compra* y el *coste total*.
+
+### Ejercicio 50
+
+Escribir un programa que guarde en una variable el **diccionario** *{'Euro':'€', 'Dollar':'$', 'Yen':'¥'}*. Ademas, debe preguntarle al usuario por una divisa y mostrar su símbolo correspondiente o un mensaje de aviso si la divisa no está en el diccionario.
+
+### Ejercicio 51
+
+A continuación se te presentan 5 códigos postales escritos en **código Morse**, todos almacenados en un mismo string y separados por “*”. Tu labor consiste en descifrar cuáles son los números que componen cada código utilizando un **diccionario** que contenga lo mostrado en la tabla.
+
+|     |       Codigo Morse          |
+|-----|-----------------------------|
+|  0  |        _ _ _ _ _            |
+|  1  |        . _ _ _ _            |
+|  2  |        . . _ _ _            |
+|  3  |        . . . _ _            |
+|  4  |        . . . . _            |
+|  5  |        . . . . .            |
+|  6  |        _ . . . .            |
+|  7  |        _ _ . . .            |
+|  8  |        _ _ _ . .            |
+|  9  |        _ _ _ _ .            |
+
+**Input**
+```python
+codigos_postales = "...._ __... ..... ..___*.____ ___.. ___.. _____*_.... ..___ ...__ _....*..... __... .____ .____*___.. ...._ ____. ____."
+```
+
+**Output**
+```shell
+	4752
+	1880
+	6236
+	5711
+	8499
 ```
 
 
