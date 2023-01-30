@@ -689,6 +689,140 @@ codigos_postales = "...._ __... ..... ..___*.____ ___.. ___.. _____*_.... ..___ 
 
 ## Estructuras de Datos Combinadas
 
+
+### Ejercicio 52
+
+Le han dado una lista de k listas, cada una de las listas esta ordenada de manera ascendente. Combine las k listas en una sola lista ordenada y retorne dicha lista.
+
+**Input**
+
+```python
+lists = [[1,4,5],[1,3,4],[2,6]]
+
+```
+**Output**
+```shell
+[1,1,2,3,4,4,5,6]
+```
+
+### Ejercicio 53
+
+Dada la lista orders, que representa las ordenes que ciertos clientes han hecho en un restaurante. Específicamente, ```orders[i] = [customer_name,table_number,food_item]```
+
+Imprima la tabla display_table, que es una tabla cuyas filas denotan cuantos items de comida cada mesa ha ordenado, en donde, la primera columna es el número de la mesa y el resto de las columnas corresponden al nombre de los platos ordenados alfabéticamente. La primera fila debe ser el encabezado de la tabla.
+
+**Input**
+```python
+orders = [
+    ["David", "3", "Ceviche"],
+    ["Corina", "10", "Beef Burrito"],
+    ["David", "3", "Fried Chicken"],
+    ["Carla", "5", "Water"],
+    ["Carla", "5", "Ceviche"],
+    ["Rous", "3", "Ceviche"]
+  ]
+```
+
+**Output**
+
+```python
+[
+  ["Table","Beef Burrito","Ceviche","Fried Chicken","Water"],
+  ["3","0","2","1","0"],
+  ["5","0","1","0","1"],
+  ["10","1","0","0","0"]
+]
+```
+### Ejercicio 54
+
+Dada la lista students que es una lista de diccionario, calcule el promedio de notas de los estudiantes y determine cual es el estudiante con mayor nota dentro del grupo.
+
+```python
+student = [
+  {
+    "name": "Jose",
+    "grade": 16
+  },
+  {
+    "name": "Luis",
+    "grade": 17
+  },
+  {
+    "name": "Antonio",
+    "grade": 14
+  },
+  {
+    "name": "Gabrielle",
+    "grade": 12,
+  },
+  {
+    "name": "Alejandro",
+    "grade": 11,
+  }
+]
+```
+
+**Output**
+```shell
+"El promedio de notas es: 14.0ptos"
+"El estudiante con mayor nota es Luis con 17ptos"
+```
+
+
+### Ejercicio 55
+
+Una panadería te ha contratado para que le diseñes un programa que tome los pedidos de sus clientes, a partir de la información de una base de datos dada, y generes una factura de su compra. Debes asignarle a cada cliente nuevo un número de factura, además de solicitar su nombre y su cédula.
+Además de esto, esta panadería tiene un sistema de descuentos que funciona de la siguiente forma
+
+- Si el total de la compra es múltiplo de 3, se aplica un 10% de descuento a la compra
+- Si es múltiplo de 7, se aplica un 12%
+- Si es múltiplo de ambos, 3 y 7, se aplica un descuento de 15%
+
+**Output que se espera**
+
+Imprimir la factura del cliente (nombre, cédula, items comprados con su precio y cantidad, y total a pagar después de aplicados los descuentos).
+
+```python
+menu = {"Cachito": 4.00, "Empanada": 3.00, "Pasatelito": 3.50, "Sandwich": 2.50, "Pan tradicional (1 barra)": 1.00, "Pan especial (1 barra)": 1.75, "Café": 1.25, "Jugo": 2.00, "Agua": 0.75, "Dulces (por kilo)": 6.00, "Galletas (por kilo)": 5.75, "Torta": 10.25}
+```
+
+
+### Ejercicio 56
+
+Una cadena de comida rápida te necesita para la creación de un programa con el que se pueda llevar una base de datos de los productos que ofrecen en su menú con su precio. Para ello, deberás aplicar lo que has aprendido sobre las diferentes estructuras de datos de Python.
+Este negocio ofrece hamburguesas, nuggets, papas fritas, helados y bebidas.
+Las hamburguesas pueden ser: clásica ($4.00), doble carne ($4.80), BBQ ($4.40) y de pollo ($4.20),.
+Los nuggets pueden ser: de 15 piezas ($6.20) o de 30 piezas ($10.50).
+Las papas fritas pueden ser: clásicas ($2.80), con queso ($3.10) o con queso y tocineta ($3.90).
+Los helados pueden ser: de vainilla ($1.30), de fresa ($1.50) o de chocolate ($1.50).
+Las bebidas pueden ser: agua ($0.50), té frío (de durazno o limón) ($1.10) o refresco (Coca-Cola, 7-Up o Freskolita) ($0.90)
+
+**Output que se espera**
+
+Deberá mostrarse de forma ordenada cada elemento del menú, con sus respectivas variaciones y precios. También se pide cuál es el producto más caro (nuggets de 30) y cuál es el más barato (agua) con su precio
+
+```python
+menu_lista = [("Hamburguesas","Clásica", 4.00), ("Hamburguesas","Doble Carne", 4.80), ("Hamburguesas","BBQ", 4.40), ("Hamburguesas","Pollo", 4.20), ("Nuggets","15 piezas", 5.20), ("Nuggets","30 piezas", 9.50), ("Papas fritas","Clásicas", 2.80), ("Papas fritas","Queso", 3.10), ("Papas fritas","Queso y tocineta", 3.90), ("Helados","Vainilla", 1.30), ("Helados","Fresa", 1.50), ("Helados","Chocolate", 1.50), ("Bebidas","Agua", 0.50), ("Bebidas","Té","Limón", 1.10), ("Bebidas","Té","Durazno", 1.10), ("Bebidas","Refresco","Coca-Cola", 0.90), ("Bebidas","Refresco","7-Up", 0.90), ("Bebidas","Refresco","Freskolita", 0.90)]
+```
+
+### Ejercicio 57
+Las matrices podrían definirse como distribuciones rectangulares o cuadradas de números o funciones, están compuestas por filas y columnas.
+Para las matrices cuadradas (mismo número de filas y columnas) existe lo que se conoce como determinante. El determinante de una matriz cuadrada es la suma de todos los productos que pueden formarse de tal forma que en cada producto haya solo un elemento de cada fila y solo uno de cada columna, por ejemplo
+
+![Matriz](https://www.calculadoraconversor.com/wp-content/uploads/2016/05/determinante-3x3-sarrus.jpg)
+
+Entonces, el cálculo del determinante de esta matriz de 3x3 sería
+
+∆ = (a11 * a22 * a33) + (a21 * a32 * a13) + (a31 * a12 * a23) - (a13 * a22 * a31) - (a12 * a21 * a33) - (a23 * a32 * a11)
+
+Los tres productos que resultan de la diagonal principal (a11*a22*a33) y las diagonales paralelas a ella, se suman, los otros tres productos se restan.
+
+Realiza un programa que, a partir de la siguiente matriz de 3x3, retorne su determinante:
+	
+```python
+matriz = [[1, 3, 2], [4, 5, 7], [8, 6, 9]]
+```
+
 # Semana 5
 
 ## Modularidad, funciones e importaciones
